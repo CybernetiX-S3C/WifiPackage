@@ -147,7 +147,7 @@ sleep 15
 echo "Searching for Wifi card..."
 sleep 10
 
-echo "wlan1 found."
+echo "wlan0 found."
 sleep 5
 
 echo "Lets first take down wlan0"
@@ -159,7 +159,7 @@ sudo iw reg set GY
 sleep 10
 
 echo "This is the best part. Changing TxPower to 30"
-iwconfig wlan1 txpower 30
+iwconfig wlan0 txpower 30
 sleep 10
 
 echo "If you dont eat your meat, how can you have any pudding?"
